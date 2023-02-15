@@ -867,3 +867,7 @@ on property:persist.audio.headset.plug.status=on
 on property:persist.audio.headset.plug.status=off
    start headset_out_screenmode
 # L19A-T code for HQ-236699 by shaoweijie at 2022/11/09 end
+
+# Stop Serial Console
+on boot
+    stop console
