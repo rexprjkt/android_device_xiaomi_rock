@@ -75,3 +75,8 @@ genfscon sysfs /devices/platform/trusty/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/power_supply/mtk-gauge/wakeup u:object_r:sysfs_wakeup:s0
 
 
+# Extcon usb nodes
+genfscon sysfs /devices/platform/extcon_usb1 u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/extcon_usb u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/soc:extcon_usb/extcon u:object_r:sysfs_extcon:s0
+
