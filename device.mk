@@ -293,6 +293,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayRock \
     SettingsResOverlayRock \
     SystemUIOverlayRock \
+    TetheringResOverlayRock \
     WifiResOverlayRock
 
 # Soong namespaces
