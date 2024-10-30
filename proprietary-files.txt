@@ -315,6 +315,17 @@ vendor/etc/dsi_panel_l19a_31_03_0b_dsc_vdo_lcm_drv_mi.xml
 vendor/etc/dsi_panel_l19a_36_02_0a_dsc_vdo_lcm_drv_mi.xml
 vendor/etc/screen_light.xml
 
+# DRM (Digital Rights Management)
+vendor/bin/hw/android.hardware.drm@1.4-service.widevine
+vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libtlcWidevineModularDrm.so
+vendor/lib64/liburee_meta_drmkeyinstall.so
+vendor/lib64/libwvhidl.so
+vendor/lib64/libwvkeybox.so
+vendor/lib64/mediadrm/libwvdrmengine.so
+
 # Firmware
 vendor/firmware/BT_FW.cfg
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
