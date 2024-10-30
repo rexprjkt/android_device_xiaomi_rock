@@ -20,7 +20,9 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/xiaomi/rock',
+    "device/xiaomi/rock",
+    "hardware/mediatek",
+    "hardware/mediatek/libmtkperf_client"
 ]
 
 
