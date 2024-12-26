@@ -1234,6 +1234,14 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
+# Fingerprint
+vendor/lib64/hw/fingerprint.fpc.so;SYMLINK=vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix.so;SYMLINK=vendor/lib64/hw/fingerprint.goodix.default.so;FIX_SONAME
+vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/libgf_ca.so
+vendor/lib64/libgf_hal.so
+
 # Firmware
 vendor/firmware/BT_FW.cfg
 vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin
