@@ -6,6 +6,7 @@ vendor.sys.thermal.data.path u:object_r:vendor_thermal_normal_prop:s0
 
 # Camera
 persist.vendor.camera. u:object_r:vendor_camera_persist_prop:s0
+vendor.camera. u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 persist.vendor.sys.fp. u:object_r:vendor_fp_prop:s0
