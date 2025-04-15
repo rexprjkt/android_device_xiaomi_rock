@@ -23,7 +23,8 @@ namespace_imports = [
     "device/xiaomi/rock",
     "hardware/mediatek",
     "hardware/mediatek/libmtkperf_client",
-    "hardware/lineage/compat"
+    "hardware/lineage/compat",
+    "hardware/xiaomi"
 ]
 
 
