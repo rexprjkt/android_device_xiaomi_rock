@@ -58,9 +58,7 @@ ro.vendor.camera.isp.support.colorspace=0
 ro.vendor.camera3.zsl.default=260
 ro.vendor.mtk_cam_security_support=0
 ro.vendor.mtk_camera_app_version=3
-vendor.camera.mdp.cz.enable=0
 vendor.camera.mdp.cz.enable=1
-vendor.camera.mdp.dre.enable=0
 vendor.camera.mdp.dre.enable=1
 vendor.mtk.camera.app.fd.video=1
 
@@ -135,7 +133,6 @@ ro.vendor.mgvi_name=mihal
 
 # PQ
 ro.vendor.mtk_pq_color_mode=1
-ro.vendor.mtk_pq_color_mode=3
 ro.vendor.mtk_pq_support=2
 ro.vendor.pq.mtk_aal_support=1
 ro.vendor.pq.mtk_ai_scence_pq_support=0
