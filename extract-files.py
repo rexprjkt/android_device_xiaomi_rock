@@ -111,6 +111,8 @@ blob_fixups: blob_fixups_user_type = {
     .patchelf_version(patchelf_version)
     .add_needed("libshim_sensors.so")
     .replace_needed("libutils.so", "libutils-v32.so"),
+    'vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so': blob_fixup()
+    .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
