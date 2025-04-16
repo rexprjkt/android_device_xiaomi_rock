@@ -43,7 +43,6 @@ vendor/lib64/libaudiocomponentenginec.so
 vendor/lib64/libaudiocustparam_vendor.so
 vendor/lib64/libaudiodcrflt_vendor.so
 vendor/lib64/libaudiofmtconv.so
-vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
 vendor/lib64/libaudiosmartpamtk.so
 vendor/lib64/libaudiotoolkit_vendor.so
@@ -1332,6 +1331,7 @@ vendor/lib64/egl/libMEOW_qt.so
 vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/egl/mt6789/libGLES_mali.so
 vendor/lib64/hw/hwcomposer.mtk_common.so
+vendor/lib64/mt6789/libgpudataproducer.so
 vendor/lib64/hw/mt6789/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/mt6789/gralloc.common.so
