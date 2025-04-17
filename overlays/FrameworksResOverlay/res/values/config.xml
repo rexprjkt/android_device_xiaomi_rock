@@ -178,14 +178,6 @@
     <!-- Flag specifying whether VT is available on device -->
     <bool name="config_device_vt_available">true</bool>
 
-    <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
-         when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
-         where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
-         and Strength as defined in Authenticators.java -->
-    <string-array name="config_biometric_sensors" translatable="false" >
-        <item>0:2:15</item>
-    </string-array>
-
      <!-- The default refresh rate for a given device. Change this value to set a higher default
           refresh rate. If the hardware composer on the device supports display modes with a higher
           refresh rate than the default value specified here, the framework may use those higher
