@@ -54,7 +54,6 @@ vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
-vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libsixth.so
 vendor/lib64/libspeech_enh_lib.so;FIX_SONAME
@@ -1502,6 +1501,15 @@ vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.1.so
 vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so
 
+# NFC
+vendor/etc/init/init.rock.nfc.rc
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/libnfc-nxp_RF.conf
+
+# NFC Firmware
+vendor/lib64/libpn557_fw.so
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/fuelgauged
@@ -1648,6 +1656,9 @@ system_ext/lib64/libvt_avsync.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/priv-app/ImsService/ImsService.apk
+
+# Secure Element
+vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 
 # Sensors
 vendor/lib64/hw/sensors.mediatek.V2.0.so:vendor/lib64/hw/sensors.mt6789.so;FIX_SONAME

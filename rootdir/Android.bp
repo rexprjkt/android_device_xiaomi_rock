@@ -89,6 +89,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.secureelement.rock.rc",
+    src: "etc/init/hw/init.secureelement.rock.rc",
+    sub_dir: "init/hw",
+    vendor: true
+}
+
+prebuilt_etc {
     name: "init.sensor_2_0.rc",
     src: "etc/init/hw/init.sensor_2_0.rc",
     sub_dir: "init/hw",
