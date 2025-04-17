@@ -1519,6 +1519,9 @@ vendor/lib64/libvow_ap_test_ha.so
 vendor/lib64/libvow_ap_test_hh.so
 vendor/lib64/libvow_ap_test_nn.so
 
+# SQLite
+vendor/lib64/libSQLiteModule_VER_ALL.so
+
 # TEE
 vendor/bin/teei_daemon
 vendor/etc/init/microtrust.rc
