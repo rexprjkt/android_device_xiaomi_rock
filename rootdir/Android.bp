@@ -18,8 +18,6 @@ prebuilt_etc {
     vendor_ramdisk_available: true
 }
 
-
-
 prebuilt_etc {
     name: "ueventd.mt6789.rc",
     filename: "ueventd.rc",
@@ -30,6 +28,12 @@ prebuilt_etc {
 sh_binary {
     name: "init.insmod.sh",
     src: "bin/init.insmod.sh",
+    vendor: true
+}
+
+sh_binary {
+    name: "init.panel_info.sh",
+    src: "bin/init.panel_info.sh",
     vendor: true
 }
 
