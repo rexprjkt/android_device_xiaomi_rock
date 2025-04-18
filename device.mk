@@ -347,5 +347,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.mediatek
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rock/rock-vendor.mk)
