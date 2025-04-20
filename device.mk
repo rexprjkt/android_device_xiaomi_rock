@@ -276,7 +276,6 @@ PRODUCT_PACKAGES += \
     init.insmod.sh \
     init.panel_info.sh \
     init.insmod.mtk.cfg \
-    init.cgroup.rc \
     init.connectivity.rc \
     init.modem.rc \
     init.mt6789.rc \
