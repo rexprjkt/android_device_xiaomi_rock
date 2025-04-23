@@ -4,3 +4,6 @@ type vendor_sysfs_usb_supply, fs_type, sysfs_type;
 # Camera
 type vendor_camera_data_file, data_file_type, file_type;
 type camera_persist_file, file_type;
+
+# Panel info
+type version_info, fs_type, sysfs_type;
