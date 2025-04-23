@@ -26,25 +26,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-# Update the panel color property and Leds brightness 
-for i in $(seq 5); do
-    if [ -f /sys/class/touch/touch_dev/panel_color ]; then
-        color=`cat /sys/class/touch/touch_dev/panel_color`
-        if [ -n "$color" ]; then
-            /system/bin/log -p i -t panel-info-sh Get panel_color successfully $color
-            break
-        else
-            /system/bin/log -p i -t panel-info-sh Get panel_color unsuccessfully, try again...
-            sleep 1
-            continue
-        fi
-    else
-        color="0"
-        /system/bin/log -p i -t panel-info-sh Get panel_color unsuccessfully, try again...
-        sleep 1
-    fi
-done
-
+# Update the Leds brightness 
 for i in $(seq 5); do
     if [ -f /sys/class/touch/touch_dev/panel_vendor ]; then
         panel_vendor=`cat /sys/class/touch/touch_dev/panel_vendor`
@@ -99,47 +81,6 @@ for i in $(seq 5); do
     fi
 done
 
-case "$color" in
-    "1")
-        setprop vendor.panel.color WHITE
-        ;;
-    "2")
-        setprop vendor.panel.color BLACK
-        ;;
-    "3")
-        setprop vendor.panel.color RED
-        ;;
-    "4")
-        setprop vendor.panel.color YELLOW
-        ;;
-    "5")
-        setprop vendor.panel.color GREEN
-        ;;
-    "6")
-        setprop vendor.panel.color PINK
-        ;;
-    "7")
-        setprop vendor.panel.color PURPLE
-        ;;
-    "8")
-        setprop vendor.panel.color GOLDEN
-        ;;
-    "9")
-        setprop vendor.panel.color SLIVER
-        ;;
-    "@")
-        setprop vendor.panel.color GRAY
-        ;;
-    "A")
-        setprop vendor.panel.color SLIVER_BLUE
-        ;;
-    "B")
-        setprop vendor.panel.color CORAL_BLUE
-        ;;
-    *)
-        setprop vendor.panel.color UNKNOWN
-        ;;
-esac
 case "$panel_vendor" in
     "1")
         setprop vendor.panel.vendor 1
