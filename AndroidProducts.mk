@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_rock.mk
+    $(LOCAL_DIR)/halcyon_rock.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_rock-user \
-    lineage_rock-userdebug \
-    lineage_rock-eng
+    halcyon_rock-user \
+    halcyon_rock-userdebug \
+    halcyon_rock-eng

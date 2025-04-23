@@ -8,14 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Halcyon project stuff.
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # Inherit from rock device
 $(call inherit-product, device/xiaomi/rock/device.mk)
 
 PRODUCT_DEVICE := rock
-PRODUCT_NAME := lineage_rock
+PRODUCT_NAME := halcyon_rock
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Redmi 11 Prime
 PRODUCT_MANUFACTURER := xiaomi
