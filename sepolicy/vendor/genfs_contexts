@@ -16,7 +16,6 @@ genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt635x-
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:main_pmic/mt6397-rtc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-rtc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt635x-auxadc/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/10026000.pwrap/10026000.pwrap:mt6359-pmic/mt6359-rtc/rtc/rtc0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10026000.pwrap/10026000.pwrap:mt6359-pmic/mt6359-rtc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10026000.pwrap/10026000.pwrap:mt6359-pmic/mt635x-auxadc/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10238000.gce/wakeup u:object_r:sysfs_wakeup:s0
@@ -82,7 +81,6 @@ genfscon sysfs /devices/platform/soc/1f000000.mdp/wakeup/ u:object_r:sysfs_wakeu
 genfscon sysfs /devices/platform/soc/1f800000.mmlsys_config/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/trusty/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/power_supply/mtk-gauge/wakeup u:object_r:sysfs_wakeup:s0
-
 
 # Extcon usb nodes
 genfscon sysfs /devices/platform/extcon_usb1 u:object_r:sysfs_extcon:s0
