@@ -237,4 +237,6 @@
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+    <!-- Display cutout. -->
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H -50 V 76 H 50 V 0 H 0 Z</string>
 </resources>
