@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/rock/device.mk)
 
 PRODUCT_DEVICE := rock
 PRODUCT_NAME := lineage_rock
-PRODUCT_BRAND := Android
+PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 11 Prime
 PRODUCT_MANUFACTURER := xiaomi
 
